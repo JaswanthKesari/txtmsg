@@ -1,0 +1,62 @@
+#head{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-bottom: 50px;
+}
+#head:hover{
+    color:grey;
+    transition-duration: 3s;
+    background-color: white;
+}
+h2{
+    color:grey;
+    margin-left: 60px;
+    transition-delay: 0s;
+    transition-duration: 5s;
+}
+body{
+    background-image: linear-gradient(grey,white,black);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container:hover {
+    background-image: radial-gradient(white,black,grey);
+    transition-delay: 0s;
+    transition-duration: 5s;
+    border: 5px solid white;
+}
+body:hover{
+    background-image: radial-gradient(grey,white,black);
+    transition-delay: 0s;
+    transition-duration: 10s;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    background-image: linear-gradient(grey,white,black);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    border: 5px solid black;
+    padding:100px;
+    width: 100px;
+    margin-left: 800px;
+}
+p{
+    font-size: x-large;
+    margin-left:30px;
+
+}
+p:hover{
+    background-color: white;
+    margin-left:120px;
+    transition-delay: 0s;
+    transition-duration: 4s;
+    color:grey;
+}
